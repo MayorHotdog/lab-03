@@ -29,7 +29,6 @@ import androidx.compose.foundation.clickable
 fun CityListScreen(
     cities: List<City>,
     onAddCity: (City) -> Unit,
-    onDeleteCity: (City) -> Unit,
     onUpdateCity: (City, City) -> Unit,
     modifier: Modifier = Modifier
 ) {
