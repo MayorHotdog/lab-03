@@ -16,10 +16,6 @@ class CityRepository {
         _cities.add(city)
     }
 
-    fun deleteCity(city: City) {
-        _cities.remove(city)
-    }
-
     fun updateCity(oldCity: City, updatedCity: City) {
         val index = _cities.indexOf(oldCity)
         if (index != -1) {
